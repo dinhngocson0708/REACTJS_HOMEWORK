@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+p{
+  font-size: 15px;
+}
+.row h1{
+  color: green;
+}
+h4{
+  font-size: 20px;
+  color: red;
+}
+.thanhbar{
+  background-color: green;
+  font-size: 12px;
+}
+.thanhbar li a{
+  color: white;
+}
+.thanhbar li a:hover{
+  color: black;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+}
+.imgContent{
+  width: 700px;
 }
